@@ -4,4 +4,4 @@
 * Pude praticar forEach, funções e arrays. Meu código não ficou totalmente igual ao do professor, porque no dele tinha um erro onde só somava mesmo tirando as peças e aceitava peças menores que 0. 
 * Consegui realizar o desafio de criar uma nova funcionalidade para alterar a cor do robô 
 
-
+![screenshot](https://raw.githubusercontent.com/Thhais/Robotron-2000/main/img/Screenshot.png)
