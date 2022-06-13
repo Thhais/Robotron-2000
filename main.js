@@ -1,5 +1,7 @@
 const controle = document.querySelectorAll('[data-controle]')
 const estatistica = document.querySelectorAll('[data-estatistica]')
+const coresRobo = document.querySelectorAll('[data-cor]')
+const robo = document.querySelector('.robo')
 const pecas = {
     "bracos": {
         "forca": 29,
@@ -68,6 +70,16 @@ function ManipulaEstatisticas(peca, dataControle){
         })
       }
 }
-    
 
+
+coresRobo.forEach( (coresRobo) => {
+    coresRobo.addEventListener('click', (evento) => {
+        trocaCor(evento.target.dataset.cor)
+        
+    })
+})   
+
+function trocaCor(cor){
+    robo.attributes.src.textContent = `img/Robotron 2000 - ${cor}.png`
+}
 
